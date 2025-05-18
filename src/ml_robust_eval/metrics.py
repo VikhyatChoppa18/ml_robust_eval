@@ -13,8 +13,8 @@ class ClassifMetricsCalc:
         return t / (t + f + 1e-8)
 
     def f1_score_calc(self, y_true, y_pred):
-        pr = self.precision(y_true, y_pred)
-        re = self.recall(y_true, y_pred)
+        pr = self.precision_calc(y_true, y_pred)
+        re = self.recall_calc(y_true, y_pred)
         return 2 * pr * re / (pr + re + 1e-8)
 
     def confusion_matrix_(self, y_true, y_pred):
