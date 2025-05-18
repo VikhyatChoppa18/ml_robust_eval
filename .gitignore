@@ -1,10 +1,9 @@
 .venv
-setup.cfg
-pyproject.toml
 tests
 test.py
+docs
+.pypirc
 dist
 build
-docs
-./src/ml_robust_eval.egg-info
-.pypirc
+
+

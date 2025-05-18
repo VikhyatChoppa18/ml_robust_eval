@@ -1,0 +1,18 @@
+[build-system]
+requires = ["setuptools"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "ml_robust_eval"
+version = "0.1.5"
+description = "ML evaluation, validation, and test case generation toolkit."
+readme = "README.md"
+license = { file = "LICENSE" }
+authors = [{name="vikhyat-ch", email="vikhyathchoppa699@gmail.com"}]
+requires-python = ">=3.7"
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent"
+]
+

@@ -2,7 +2,7 @@
 
 ![ml-eval-robust-logo](./assets/ML%20Eval.png)
 
-[![PyPI](https://img.shields.io/pypi/v/ml-eval-robust?color=blue&logo=PyPI)](https://pypi.org/project/ml-robust-eval/)
+[![PyPI](https://img.shields.io/pypi/v/ml-eval-robust?color=blue&logo=PyPI)]()
 [![License](https://img.shields.io/pypi/l/ml-eval-robust)](https://github.com/VikhyatChoppa18/ml_robust_eval/blob/main/LICENSE)
 [![Repo size](https://img.shields.io/github/repo-size/yourusername/ml-eval-robust)](https://github.com/VikhyatChoppa18/ml_robust_eval)
 [![Last commit](https://img.shields.io/github/last-commit/yourusername/ml-eval-robust?logo=git)](https://github.com/VikhyatChoppa18/ml_robust_eval/commits/main)
