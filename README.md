@@ -10,7 +10,7 @@
 ---
 
 **ML Eval Robust** is a pure Python, object-oriented library for comprehensive machine learning model evaluation, validation, and robustness testing.  
-It’s the first all-in-one toolkit that features:
+It’s is an all-in-one toolkit that features:
 
 - 📊 **Metrics** for classification, regression, NLP, and computer vision tasks  
 - 🔁 **Cross-validation** and **A/B testing** helpers  
