@@ -1,6 +1,6 @@
 # ML Robust Eval
 
-![ml-eval-robust-logo](https://raw.githubusercontent.com/yourusername/ml-eval-robust/main/assets/logo.png)
+![ml-eval-robust-logo](https://github.com/VikhyatChoppa18/ml_robust_eval/blob/main/assets/ML%20Eval.png)
 
 [![PyPI](https://img.shields.io/pypi/v/ml-eval-robust?color=blue&logo=PyPI)](https://pypi.org/project/ml-eval-robust/)
 [![License](https://img.shields.io/pypi/l/ml-eval-robust)](https://github.com/yourusername/ml-eval-robust/blob/main/LICENSE)
@@ -24,16 +24,6 @@ It’s the first all-in-one toolkit that features:
 <code>pip install ml_robust_eval</code>
 
 > **Note:** Pure Python! No numpy, pandas, or matplotlib required.
-
----
-
-## 🛠️ Quick Start
-
-
-
-
-
-
 ---
 
 ## 🧠 Features
@@ -61,7 +51,7 @@ It’s the first all-in-one toolkit that features:
 
 ## 💡 Why ML Eval Robust?
 
-- **Truly universal:** No dependencies, works in any Python environment
+- **Universal:** No dependencies, works in any Python environment
 - **Educational:** Clear, readable OOP code for learning and teaching
 - **Robust:** Covers the full ML evaluation and validation pipeline, including adversarial and edge testing
 
@@ -80,14 +70,9 @@ See the [contributing guide](https://github.com/yourusername/ml-eval-robust/blob
 
 ---
 
-## 🧪 Example Output
-
-
----
-
 ## 📬 Contact
 
-Questions? Open an [issue](https://github.com/yourusername/ml-eval-robust/issues) or reach out at [your@email.com].
+Questions? Open an [issue](https://github.com/yourusername/ml-eval-robust/issues) or reach out at [vikhyathchoppa699@gmail.com].
 
 ---
 
