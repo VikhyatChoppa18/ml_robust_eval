@@ -82,3 +82,17 @@ See the [contributing guide](https://github.com/yourusername/ml-eval-robust/blob
 
 ## 🧪 Example Output
 
+
+---
+
+## 📬 Contact
+
+Questions? Open an [issue](https://github.com/yourusername/ml-eval-robust/issues) or reach out at [your@email.com].
+
+---
+
+**Let your models earn their confidence. Test, validate, and challenge them with ML Eval Robust!**
+
+---
+
+> _Replace `yourusername`, links, and logo as needed for your project._

@@ -1,23 +1,23 @@
 class ClassifMetricsCalc:
-    def accuracy(self, y_true, y_pred):
+    def accuracy_calc(self, y_true, y_pred):
         return sum(yt == yp for yt, yp in zip(y_true, y_pred)) / len(y_true)
 
-    def precision(self, y_true, y_pred):
+    def precision_calc(self, y_true, y_pred):
         t = sum((yt == yp == 1) for yt, yp in zip(y_true, y_pred))
         f = sum((yt == 0 and yp == 1) for yt, yp in zip(y_true, y_pred))
         return t / (t + f + 1e-8)
 
-    def recall(self, y_true, y_pred):
+    def recall_calc(self, y_true, y_pred):
         t = sum((yt == yp == 1) for yt, yp in zip(y_true, y_pred))
         f = sum((yt == 1 and yp == 0) for yt, yp in zip(y_true, y_pred))
         return t / (t + f + 1e-8)
 
-    def f1_score(self, y_true, y_pred):
+    def f1_score_calc(self, y_true, y_pred):
         pr = self.precision(y_true, y_pred)
         re = self.recall(y_true, y_pred)
         return 2 * pr * re / (pr + re + 1e-8)
 
-    def confusion_matrix(self, y_true, y_pred):
+    def confusion_matrix_(self, y_true, y_pred):
         classes_ = sorted(set(y_true) | set(y_pred))
         matrix_ = [[0 for _ in classes_] for _ in classes_]
         for yt, yp in zip(y_true, y_pred):
@@ -25,27 +25,27 @@ class ClassifMetricsCalc:
         return matrix_
 
 class RegressionMetricsCalc:
-    def mae(self, y_true, y_pred):
+    def mae_calc(self, y_true, y_pred):
         return sum(abs(yt - yp) for yt, yp in zip(y_true, y_pred)) / len(y_true)
 
-    def mse(self, y_true, y_pred):
+    def mse_calc(self, y_true, y_pred):
         return sum((yt - yp) ** 2 for yt, yp in zip(y_true, y_pred)) / len(y_true)
 
-    def r2_score(self, y_true, y_pred):
+    def r2_score_calc(self, y_true, y_pred):
         mean_true_ = sum(y_true) / len(y_true)
         ss_to = sum((yt - mean_true_) ** 2 for yt in y_true)
         ss_re = sum((yt - yp) ** 2 for yt, yp in zip(y_true, y_pred))
         return 1 - ss_re / (ss_to + 1e-8)
 
 class NLPMetricsCalc:
-    def bleu(self, reference_, candidate_):
+    def bleu_calc(self, reference_, candidate_):
         ref_words = reference_.split()
         cand_words = candidate_.split()
         overlap_ = len(set(ref_words) & set(cand_words))
         return overlap_ / (len(cand_words) + 1e-8)
 
 class CVMetricsCalc:
-    def iou(self, boxA, boxB):
+    def iou_calc(self, boxA, boxB):
         xA = max(boxA[0], boxB[0])
         yA = max(boxA[1], boxB[1])
         xB = min(boxA[2], boxB[2])
