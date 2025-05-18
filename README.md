@@ -60,13 +60,13 @@ It’s is an all-in-one toolkit that features:
 ## 🤝 Contributing
 
 All contributions, bug reports, and suggestions are welcome!  
-See the [contributing guide](https://github.com/yourusername/ml-eval-robust/blob/main/CONTRIBUTING.md).
+See the [contributing guide](https://github.com/VikhyatChoppa18/ml_robust_eval/blob/main/blob/contributing.md).
 
 ---
 
 ## 📜 License
 
-[MIT License](https://github.com/yourusername/ml-eval-robust/blob/main/LICENSE)
+[MIT License](https://github.com/VikhyatChoppa18/ml_robust_eval/blob/main/LICENSE)
 
 ---
 
@@ -78,6 +78,3 @@ Questions? Open an [issue](https://github.com/yourusername/ml-eval-robust/issues
 
 **Let your models earn their confidence. Test, validate, and challenge them with ML Eval Robust!**
 
----
-
-> _Replace `yourusername`, links, and logo as needed for your project._
