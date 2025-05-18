@@ -7,3 +7,4 @@ dist
 build
 docs
 ./src/ml_robust_eval.egg-info
+.pypirc
