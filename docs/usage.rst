@@ -7,16 +7,15 @@ Quick Example
 .. code-block:: python
 
    from ml_eval_robust.metrics import ClassificationMetrics
-   cm = ClassificationMetrics()
    cm = ClassifMetricsCalc()
-    y_true = [1, 0, 1, 1, 0]
-    y_pred = [1, 0, 1, 0, 0]
-    print("Accuracy:", cm.accuracy_calc(y_true, y_pred))
-    print("Precision:", cm.precision_calc(y_true, y_pred))
-    print("Recall:", cm.recall_calc(y_true, y_pred))
-    print("F1 Score:", cm.f1_score_calc(y_true, y_pred))
-    conf_matrix = cm.confusion_matrix_(y_true, y_pred)
-    print("Confusion Matrix:", conf_matrix)
+   y_true = [1, 0, 1, 1, 0]
+   y_pred = [1, 0, 1, 0, 0]
+   print("Accuracy:", cm.accuracy_calc(y_true, y_pred))
+   print("Precision:", cm.precision_calc(y_true, y_pred))
+   print("Recall:", cm.recall_calc(y_true, y_pred))
+   print("F1 Score:", cm.f1_score_calc(y_true, y_pred))
+   conf_matrix = cm.confusion_matrix_(y_true, y_pred)
+   print("Confusion Matrix:", conf_matrix)
 
    === Classification Metrics ===
    Accuracy: 0.8
