@@ -72,7 +72,7 @@ See the [contributing guide](https://github.com/VikhyatChoppa18/ml_robust_eval/b
 
 ## 📬 Contact
 
-Questions? Open an [issue](https://github.com/yourusername/ml-eval-robust/issues) or reach out at [vikhyathchoppa699@gmail.com].
+Questions? Open an [issue](https://github.com/VikhyatChoppa18/ml-eval-robust/issues) or reach out at [vikhyathchoppa699@gmail.com].
 
 ---
 
