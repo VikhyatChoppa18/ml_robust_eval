@@ -8,7 +8,7 @@ setuptools.setup(
     name="ml_robust_eval",
 
     # version of the module
-    version="1.2",
+    version="1.3",
 
     # Name of Author
     author="Vekata Vikhyat Choppa",
