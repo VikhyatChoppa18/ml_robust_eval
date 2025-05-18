@@ -6,7 +6,7 @@ with open("README.md", "r") as fh:
 setuptools.setup(
     name="ml_robust_eval",
 
-    version="0.1.5",
+    version="0.1.6",
 
     author="Venkata Vikhyat Choppa",
 

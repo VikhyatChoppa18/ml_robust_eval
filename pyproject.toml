@@ -4,7 +4,7 @@ build-backend = "setuptools.build_meta"
 
 [project]
 name = "ml_robust_eval"
-version = "0.1.5"
+version = "0.1.6"
 description = "ML evaluation, validation, and test case generation toolkit."
 readme = "README.md"
 license = { file = "LICENSE" }
