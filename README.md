@@ -23,7 +23,6 @@ It’s is an all-in-one toolkit that features:
 ## 🚀 Installation
 <code>pip install ml_robust_eval</code>
 
-> **Note:** Pure Python! No numpy, pandas, or matplotlib required.
 ---
 
 ## 🧠 Features
@@ -43,7 +42,7 @@ It’s is an all-in-one toolkit that features:
 
 ## 📚 Documentation
 
-- [API Reference](https://github.com/yourusername/ml-eval-robust/wiki)
+- [API Reference]()
 - [Getting Started Guide](https://github.com/yourusername/ml-eval-robust/blob/main/docs/GettingStarted.md)
 - [Examples & Tutorials](https://github.com/yourusername/ml-eval-robust/blob/main/examples)
 
